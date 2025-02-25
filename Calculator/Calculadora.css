@@ -1,82 +1,205 @@
-﻿body {
-    /*background-color: #be99f0;*/
+﻿/*body {
     font-family: 'Roboto', sans-serif;
-    background: url('https://img.lovepik.com/photo/45016/1217.jpg_wh860.jpg');
+    background: url('https://img.lovepik.com/photo/45016/1217.jpg_wh860.jpg') no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; 
-    height: 100%;
+    height: 100vh;
     margin: 0;
-    object-fit:cover;
-}
+}*/
 
-form {
-    /*background: white;*/
-    background: url('https://i.pinimg.com/736x/19/a1/96/19a196ebe2bb58b1ee705ad68f657602.jpg') no-repeat center center fixed;
-    width: 100%;
+/* Contenedor del formulario */
+/*form {
+    background: rgba(255, 255, 255, 0.9) url('https://i.pinimg.com/736x/19/a1/96/19a196ebe2bb58b1ee705ad68f657602.jpg') no-repeat center center fixed;
+    background-size: cover;
+    width: 450px;
+    max-width: 90%;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    object-fit: cover;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 
 h2 {
-    color: white;
-}
+    color: black;
+    margin-bottom: 15px;
+}*/
 
-label {
+/* Etiquetas */
+/*label {
     font-weight: bold;
-}
+    color: black;
+    display: block;
+    margin-top: 10px;
+}*/
 
-asp\:TextBox {
+/* Campos de entrada */
+/*input[type="text"],
+input[type="number"],
+select {
     width: 90%;
     padding: 8px;
     margin: 5px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
-}
+    text-align: center;
+}*/
 
-asp\:Button {
-/*    background-color: #007bff;*/
-    background-color : red;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-    asp\:Button:hover {
-        background-color: #0056b3;
-    }
-
-asp\:Label {
-    font-size: 18px;
-    font-weight: bold;
-    color: #007bff;
-    display: block;
+/* Botones generales */
+/*button {
+    width: 100%;
+    padding: 10px;
     margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
 }
+
 
 #BtnSuma {
     background-color: green;
-    color: white;
 }
 
 #BtnResta {
     background-color: #DDA0DD;
-    color: white;
 }
 
 #BtnMulti {
     background-color: #7FFFD4;
-    color: white;
 }
 
 #BtnDivi {
     background-color: #FF7F50;
-    color: white; 
+}*/
+
+/* Hover en los botones */
+/*button:hover {
+    opacity: 0.8;
+}*/
+
+/* Resultado */
+/*#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+}*/
+
+
+/* Estilos globales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://img.lovepik.com/photo/45016/1217.jpg_wh860.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor del formulario */
+form {
+    background: rgba(255, 255, 255, 0.9) url('https://i.pinimg.com/736x/19/a1/96/19a196ebe2bb58b1ee705ad68f657602.jpg') no-repeat center center fixed;
+    background-size: cover;
+    width: 500px; /* Ajuste del ancho */
+    max-width: 90%;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Títulos */
+h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+/* Contenedor de los inputs */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Etiquetas */
+label {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="number"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Botones */
+button {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120px;
+    margin: 5px;
+}
+
+/* Botones específicos con colores personalizados */
+#BtnSuma {
+    background-color: green;
+}
+
+#BtnResta {
+    background-color: #DDA0DD;
+}
+
+#BtnMulti {
+    background-color: #7FFFD4;
+}
+
+#BtnDivi {
+    background-color: #FF7F50;
+}
+
+/* Hover en los botones */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Resultado */
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+/* 🔹 Responsivo: en pantallas pequeñas se adapta */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+    }
 }
