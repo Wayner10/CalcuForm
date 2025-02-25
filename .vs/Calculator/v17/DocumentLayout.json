@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Wayner\\Desktop\\CalcuForm\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\CalcuForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5836913E-B8CF-4F0D-B125-17CF239941F2}|Calculator\\Calculator.csproj|c:\\users\\wayner\\desktop\\calcuform\\calculator\\formucalcu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{5836913E-B8CF-4F0D-B125-17CF239941F2}|Calculator\\Calculator.csproj|c:\\users\\user\\desktop\\calcuform\\calculator\\formucalcu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{5836913E-B8CF-4F0D-B125-17CF239941F2}|Calculator\\Calculator.csproj|solutionrelative:calculator\\formucalcu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5836913E-B8CF-4F0D-B125-17CF239941F2}|Calculator\\Calculator.csproj|c:\\users\\wayner\\desktop\\calcuform\\calculator\\calculadora.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{5836913E-B8CF-4F0D-B125-17CF239941F2}|Calculator\\Calculator.csproj|C:\\Users\\User\\Desktop\\CalcuForm\\calculator\\calculadora.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{5836913E-B8CF-4F0D-B125-17CF239941F2}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculadora.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5836913E-B8CF-4F0D-B125-17CF239941F2}|Calculator\\Calculator.csproj|C:\\Users\\Wayner\\Desktop\\CalcuForm\\calculator\\formucalcu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5836913E-B8CF-4F0D-B125-17CF239941F2}|Calculator\\Calculator.csproj|C:\\Users\\User\\Desktop\\CalcuForm\\calculator\\formucalcu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5836913E-B8CF-4F0D-B125-17CF239941F2}|Calculator\\Calculator.csproj|solutionrelative:calculator\\formucalcu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Calculadora.css",
-              "DocumentMoniker": "C:\\Users\\Wayner\\Desktop\\CalcuForm\\Calculator\\Calculadora.css",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CalcuForm\\Calculator\\Calculadora.css",
               "RelativeDocumentMoniker": "Calculator\\Calculadora.css",
-              "ToolTip": "C:\\Users\\Wayner\\Desktop\\CalcuForm\\Calculator\\Calculadora.css*",
-              "RelativeToolTip": "Calculator\\Calculadora.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CalcuForm\\Calculator\\Calculadora.css",
+              "RelativeToolTip": "Calculator\\Calculadora.css",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-02-22T23:10:27.367Z",
               "EditorCaption": ""
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FormuCalcu.aspx",
-              "DocumentMoniker": "C:\\Users\\Wayner\\Desktop\\CalcuForm\\Calculator\\FormuCalcu.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CalcuForm\\Calculator\\FormuCalcu.aspx",
               "RelativeDocumentMoniker": "Calculator\\FormuCalcu.aspx",
-              "ToolTip": "C:\\Users\\Wayner\\Desktop\\CalcuForm\\Calculator\\FormuCalcu.aspx",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CalcuForm\\Calculator\\FormuCalcu.aspx",
               "RelativeToolTip": "Calculator\\FormuCalcu.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -54,11 +54,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FormuCalcu.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Wayner\\Desktop\\CalcuForm\\Calculator\\FormuCalcu.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CalcuForm\\Calculator\\FormuCalcu.aspx.cs",
               "RelativeDocumentMoniker": "Calculator\\FormuCalcu.aspx.cs",
-              "ToolTip": "C:\\Users\\Wayner\\Desktop\\CalcuForm\\Calculator\\FormuCalcu.aspx.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CalcuForm\\Calculator\\FormuCalcu.aspx.cs",
               "RelativeToolTip": "Calculator\\FormuCalcu.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAvjs49u4HwBEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T00:15:58.512Z",
               "EditorCaption": ""

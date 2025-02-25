@@ -1,28 +1,29 @@
 ﻿body {
-    /*font-family: Arial, sans-serif;*/
     /*background-color: #be99f0;*/
     font-family: 'Roboto', sans-serif;
-    /*background: url('https://img.lovepik.com/photo/45016/1217.jpg_wh860.jpg') no-repeat center center fixed;*/
+    background: url('https://img.lovepik.com/photo/45016/1217.jpg_wh860.jpg');
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;  /*Ocupa el 100% de la altura de la pantalla */
+    height: 100%; 
+    height: 100%;
     margin: 0;
+    object-fit:cover;
 }
 
 form {
     /*background: white;*/
     background: url('https://i.pinimg.com/736x/19/a1/96/19a196ebe2bb58b1ee705ad68f657602.jpg') no-repeat center center fixed;
-    width: 50%;
-    padding: 20px;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
 }
 
 
 h2 {
-    color: #333;
+    color: white;
 }
 
 label {
@@ -38,7 +39,8 @@ asp\:TextBox {
 }
 
 asp\:Button {
-    background-color: #007bff;
+/*    background-color: #007bff;*/
+    background-color : red;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -57,4 +59,24 @@ asp\:Label {
     color: #007bff;
     display: block;
     margin-top: 10px;
+}
+
+#BtnSuma {
+    background-color: green;
+    color: white;
+}
+
+#BtnResta {
+    background-color: #DDA0DD;
+    color: white;
+}
+
+#BtnMulti {
+    background-color: #7FFFD4;
+    color: white;
+}
+
+#BtnDivi {
+    background-color: #FF7F50;
+    color: white; 
 }
